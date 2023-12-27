@@ -1,0 +1,13 @@
+@use '../../styles/variables' as v;
+
+.app {
+  width: 90%;
+  max-width: 50rem;
+  margin: 0 auto;
+  background-color: v.$color-inner;
+  padding: 1rem;
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+}
